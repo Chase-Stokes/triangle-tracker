@@ -28,13 +28,13 @@ function scalene(a, b, c) {
 
 function triangle(a, b, c) {
   if (a+b <= c){
-    return true
-  } else if (a+c <= b){
-  return true
-  } else if (c+b <= a){
-    return true
-  }  else {
     return false
+  } else if (a+c <= b){
+  return false
+  } else if (c+b <= a){
+    return false
+  }  else {
+    return true
   }
 }
 
